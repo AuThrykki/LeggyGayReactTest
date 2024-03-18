@@ -1,4 +1,3 @@
-import './App.css';
 import MainPanel from './Components/MainPanel';
 import './landingPageStyle.css'
 
