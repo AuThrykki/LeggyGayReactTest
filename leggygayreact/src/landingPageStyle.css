@@ -1,0 +1,225 @@
+html {
+  --black: black;
+  --white: rgb(255, 255, 255);
+  --teal: rgb(89, 239, 229);
+  --MainC1: rgb(225, 86, 58);
+  --Pink: rgb(251, 34, 111);
+  --factoid: rgb(185, 185, 185);
+  --darkteal: rgb(89, 156, 152);
+  height: 100vh;
+  font-size: 0.8em;
+  font-weight: bolder;
+}
+
+body {
+  background-color: var(--black);
+  height: 99vh;
+  font-family: 'Monaco', monospace;
+}
+
+canvas {
+  background: black;
+  width: 60%;
+  height: 98%;
+  display: block;
+  position: absolute;
+  z-index: -1;
+
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+@media screen and (min-height: 1) {
+  body {
+    font-size: 0.4em;
+  }
+}
+
+@media screen and (min-height: 300px) {
+  body {
+    font-size: 0.5em;
+  }
+}
+
+@media screen and (min-height: 500px) {
+  body {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (min-height: 600px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-height: 700px) {
+  body {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-height: 800px) {
+  body {
+    font-size: 1.4em;
+  }
+}
+
+@media screen and (min-height: 1100px) {
+  body {
+    font-size: 1.7em;
+  }
+}
+
+@media screen and (min-height: 1400px) {
+  body {
+    font-size: 2em;
+  }
+}
+
+@media screen and (min-height: 1700px) {
+  body {
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-height: 2000px) {
+  body {
+    font-size: 3.3em;
+  }
+}
+
+@media screen and (min-height: 4000px) {
+  body {
+    font-size: 4em;
+  }
+}
+
+#appBox {
+  display: flex;
+  flex-direction: column;
+  max-width: 23em;
+  margin: auto;
+  align-items: center;
+  gap: 1em;
+  justify-content: space-evenly;
+  align-content: space-around;
+  height: 98vh;
+  background-color: rgba(0, 12, 12, 0.55);
+  border-radius: 40px;
+}
+
+#headerPicture {
+  max-height: 20em;
+  max-width: 20em;
+  width: 100%;
+  border-radius: 34%;
+  border: 3px var(--MainC1) dashed;
+  border-style: outset;
+}
+
+#linksDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  width: 85%;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+  max-height: 5em;
+  max-width: 5em;
+
+  color: var(--MainC1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.icon {
+  width: 3em;
+  height: 3em;
+}
+
+.titleDiv {
+  font-size: 1.8em;
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+
+.factoid {
+  text-align: center;
+  display: inline;
+  color: var(--factoid);
+}
+
+.bigFont {
+  color: var(--MainC1);
+  font-size: 1.4em;
+}
+
+.glow {
+  transition: color 2s, text-shadow 2s;
+  text-align: center;
+  text-shadow: var(--Pink) -1px -1px 12px, var(--Pink) 1px 1px 1px,
+    var(--Pink) 1px 1px 1px;
+}
+
+.glow:hover {
+  color: white !important;
+  transition: color 0.2s, text-shadow 0.2s;
+  text-shadow: var(--teal) -1px -1px 12px, var(--teal) 1px 1px 1px,
+    var(--teal) 1px 1px 1px;
+}
+
+
+#appGallery {
+  display: flex;
+  flex-direction: column;
+  max-width: 70em;
+  margin: auto;
+  align-items: center;
+  gap: 1em;
+  justify-content: space-evenly;
+  align-content: space-around;
+  background-color: rgba(0, 12, 12, 0.55);
+  border-radius: 40px;
+}
+
+.galleryTitle {
+  margin: 1.3em 0 0.3em 0;
+  font-size: 1.4em;
+}
+
+.galleryContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.imageContainer {
+  max-width: 100%;
+}
+
+.imageContainer img {
+  max-height: 15em;
+  max-width: 100%;
+}
