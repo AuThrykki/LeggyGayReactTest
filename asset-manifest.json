@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LeggyGayBetaTestPage/static/css/main.f855e6bc.css",
+    "main.js": "/LeggyGayBetaTestPage/static/js/main.db67cce9.js",
+    "static/js/453.528be48d.chunk.js": "/LeggyGayBetaTestPage/static/js/453.528be48d.chunk.js",
+    "static/media/@Lay0wn_HevrosSticker.PNG": "/LeggyGayBetaTestPage/static/media/@Lay0wn_HevrosSticker.04200549ec1425135e73.PNG",
+    "index.html": "/LeggyGayBetaTestPage/index.html",
+    "main.f855e6bc.css.map": "/LeggyGayBetaTestPage/static/css/main.f855e6bc.css.map",
+    "main.db67cce9.js.map": "/LeggyGayBetaTestPage/static/js/main.db67cce9.js.map",
+    "453.528be48d.chunk.js.map": "/LeggyGayBetaTestPage/static/js/453.528be48d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.db67cce9.js"
+  ]
+}
