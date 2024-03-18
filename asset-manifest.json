@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/LeggyGayReactTest/static/css/main.f855e6bc.css",
-    "main.js": "/LeggyGayReactTest/static/js/main.2f4ef585.js",
-    "static/js/453.528be48d.chunk.js": "/LeggyGayReactTest/static/js/453.528be48d.chunk.js",
-    "static/media/@Lay0wn_HevrosSticker.PNG": "/LeggyGayReactTest/static/media/@Lay0wn_HevrosSticker.04200549ec1425135e73.PNG",
+    "main.css": "/LeggyGayReactTest/static/css/main.74bc24c4.css",
+    "main.js": "/LeggyGayReactTest/static/js/main.d10f93b0.js",
+    "static/media/@KerpeHevros2.jpg": "/LeggyGayReactTest/static/media/@KerpeHevros2.2c6d47aab7738ad438f0.jpg",
+    "static/media/iconFuraffinity.svg": "/LeggyGayReactTest/static/media/iconFuraffinity.85d6bdf71a2344757bf346424c9b1ce8.svg",
+    "static/media/iconBarq.svg": "/LeggyGayReactTest/static/media/iconBarq.1ca20923e4f465e7c58723d8a3adfb12.svg",
+    "static/media/iconDiscord.svg": "/LeggyGayReactTest/static/media/iconDiscord.0091ac1842d9b7f5ebc63631c69a487a.svg",
+    "static/media/iconBluesky.svg": "/LeggyGayReactTest/static/media/iconBluesky.b343568c91834f7cbe145155c16e617b.svg",
     "index.html": "/LeggyGayReactTest/index.html",
-    "main.f855e6bc.css.map": "/LeggyGayReactTest/static/css/main.f855e6bc.css.map",
-    "main.2f4ef585.js.map": "/LeggyGayReactTest/static/js/main.2f4ef585.js.map",
-    "453.528be48d.chunk.js.map": "/LeggyGayReactTest/static/js/453.528be48d.chunk.js.map"
+    "static/media/iconTelegram.svg": "/LeggyGayReactTest/static/media/iconTelegram.b1f5d000a770005eeef14d583ada0210.svg",
+    "static/media/iconGallery.svg": "/LeggyGayReactTest/static/media/iconGallery.295134c20c7afbe38e9b6360c827b9d9.svg",
+    "main.74bc24c4.css.map": "/LeggyGayReactTest/static/css/main.74bc24c4.css.map",
+    "main.d10f93b0.js.map": "/LeggyGayReactTest/static/js/main.d10f93b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.2f4ef585.js"
+    "static/css/main.74bc24c4.css",
+    "static/js/main.d10f93b0.js"
   ]
 }
